@@ -1,15 +1,44 @@
 # puppet
 
+
 ### Câu lệnh trong Puppet:
 
-puppet apply: Thực thi các tệp manifest Puppet và áp dụng cấu hình trên một máy cụ thể.
-puppet agent: Chạy Puppet agent để gửi yêu cầu cập nhật cấu hình đến Puppet master.
-puppet cert: Quản lý chứng chỉ SSL của Puppet.
-puppet resource: Hiển thị thông tin chi tiết về các tài nguyên Puppet.
-puppet module: Quản lý và tìm kiếm module Puppet.
-puppet parser validate: Kiểm tra tính hợp lệ của các tệp manifest Puppet.
-puppet facts: Hiển thị thông tin về các facts (thông tin máy chủ) được thu thập bởi Puppet.
+puppet apply
 
+Thực thi các tệp manifest Puppet và áp dụng cấu hình trên một máy cụ thể.
+   ```
+puppet agent
+   ```
+   
+Chạy Puppet agent để gửi yêu cầu cập nhật cấu hình đến Puppet master.
+   ```
+puppet cert
+   ```
+   
+Quản lý chứng chỉ SSL của Puppet.
+   ```
+puppet resource
+   ```
+   
+Hiển thị thông tin chi tiết về các tài nguyên Puppet.
+   ```
+puppet module
+   ```
+   
+Quản lý và tìm kiếm module Puppet.
+   ```
+puppet parser validate
+   ```
+   
+Kiểm tra tính hợp lệ của các tệp manifest Puppet.
+   ```
+puppet facts
+   ```
+   
+   ```Hiển thị thông tin về các facts (thông tin máy chủ) được thu thập bởi 
+Puppet.
+   ```
+   
 ### VD:
    ```
 puppet describe user |more
@@ -52,3 +81,4 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 locale
    ```
+
