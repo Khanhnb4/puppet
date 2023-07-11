@@ -35,9 +35,8 @@ Kiểm tra tính hợp lệ của các tệp manifest Puppet.
 puppet facts
    ```
    
-   ```Hiển thị thông tin về các facts (thông tin máy chủ) được thu thập bởi 
+Hiển thị thông tin về các facts (thông tin máy chủ) được thu thập bởi 
 Puppet.
-   ```
    
 ### VD:
    ```
