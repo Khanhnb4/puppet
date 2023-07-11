@@ -2,9 +2,9 @@
 
 
 ### Câu lệnh trong Puppet:
-
+   ```
 puppet apply
-
+   ```
 Thực thi các tệp manifest Puppet và áp dụng cấu hình trên một máy cụ thể.
    ```
 puppet agent
