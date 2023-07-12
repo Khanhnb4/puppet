@@ -49,6 +49,9 @@ puppet apply với tùy chọn --noop (no-op mode), Puppet sẽ thực hiện qu
    ```
    ```
 puppet cert --list (chi ra list cert dang waiting thoi,)  | puppet cert --list --all ( list all cert include waiting and catching) | puppet cert --print puppet.localdomain |more (show data cert puppet.localdomain )
+
+puppet cert --sign agent.localdomain
+puppet cert --print puppet.localdomain |more
    ```
 
 ### Cấu trúc một module trong Puppet thường bao gồm các thành phần sau:
